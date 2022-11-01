@@ -1040,3 +1040,60 @@ h4 {
         text-align: center;
     }
 }
+
+
+/*Modifications */
+
+
+
+/*Remplacement première image par texte*/
+
+.imgreplace0{
+    display: flex;
+    justify-content: center;
+}
+
+.imgreplace1{
+    width: 64%;
+}
+
+.imgreplace1 p{
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+/*Remplacement deuxième image par texte*/
+
+
+.citation__bloc{
+    display: flex;
+    justify-content: center;
+}
+
+.citation{
+    width: 56%;
+    margin-left: 0;
+}
+
+
+.citation--text{
+    font-size: 20px;  
+    margin-bottom: 0;  
+    line-height: 1.1;
+}
+
+.citation--subtitle{
+    font-size: 20px;
+    opacity: 0.9;
+    margin-top: 0;
+}
+
+/*Remplacement troisième image par texte*/
+
+.imgreplace3{
+    width: 46%;
+}
+
+.imgreplace3--text{
+    font-size: 22px;
+}
