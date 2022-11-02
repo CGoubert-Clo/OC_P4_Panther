@@ -1103,9 +1103,28 @@ h4 {
     font-size: 22px;
 }
 
+/*Ajustement taille nouvelles images*/
+
+.img-responsive{
+    width: 100%;
+}
+
+/*Responsive*/
+
+@media (max-width: 767px) {
+    
+    .imgreplace1, .citation, .imgreplace3{
+        width: 100%;
+    }
+
+}
+
 
 /* Modification couleurs des icones du footer */
 
 .fa-dribbble:before, .fa-instagram:before, .fa-facebook:before,.fa-twitter:before{
     color: #000000;
 }
+
+
+
