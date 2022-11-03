@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: none;
 }
 
 a:hover {
@@ -301,6 +301,8 @@ a:hover {
     line-height: 44px;
 }
 
+
+
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
@@ -336,6 +338,8 @@ a:hover {
 .nav > li a:focus {
     background: transparent;
 }
+
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -461,7 +465,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: none;
 }
 
 .btn-rd {
@@ -1128,3 +1132,8 @@ h4 {
 
 
 
+/*Ajout d'un focus */
+
+body:focus-visible*{
+    outline: 6px dashed hotpink;
+}
